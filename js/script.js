@@ -5,6 +5,7 @@ const form = document.querySelector('#contact-form');
 if (form) {
   form.addEventListener('submit', (event) => {
     event.preventDefault();
+    gtag('event', 'generate_lead', { form_id: 'contact-form', lead_source: 'practice_form' });
     document.querySelector('#form-status').textContent =
       'Готово! Учебная форма проверена. Данные никуда не отправлены.';
     form.reset();
