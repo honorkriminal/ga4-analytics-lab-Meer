@@ -1,0 +1,29 @@
+{
+  "environment": "Локальная проверка Code.gs с имитацией Google Sheets и блокировки",
+  "duplicate": "duplicate_request_id",
+  "emptyName": "missing_required",
+  "rows": [
+    {
+      "request_id": "REQ-00000000-0000-4000-8000-000000000001",
+      "created_at": "2026-11-24T09:24:49.427Z",
+      "name": "Тест",
+      "email": "demo@example.com",
+      "direction": "backend",
+      "utm_source": "direct",
+      "utm_medium": "none",
+      "utm_campaign": "not_set",
+      "status": "new"
+    },
+    {
+      "request_id": "REQ-00000000-0000-4000-8000-000000000002",
+      "created_at": "2026-11-24T09:24:49.428Z",
+      "name": "Тест",
+      "email": "demo@example.com",
+      "direction": "backend",
+      "utm_source": "telegram",
+      "utm_medium": "social",
+      "utm_campaign": "lesson07",
+      "status": "new"
+    }
+  ]
+}

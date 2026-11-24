@@ -1,0 +1,51 @@
+[
+  [
+    "event",
+    "utm_visit",
+    {
+      "utm_source": "instagram",
+      "utm_medium": "social",
+      "utm_campaign": "backend_guide",
+      "landing_page": "/out/site/contacts.html"
+    }
+  ],
+  [
+    "event",
+    "read_30s",
+    {
+      "page_path": "/out/site/contacts.html"
+    }
+  ],
+  [
+    "event",
+    "form_error",
+    {
+      "field_name": "name",
+      "form_id": "lead-form"
+    }
+  ],
+  [
+    "event",
+    "form_error",
+    {
+      "field_name": "email",
+      "form_id": "lead-form"
+    }
+  ],
+  [
+    "event",
+    "form_error",
+    {
+      "field_name": "direction",
+      "form_id": "lead-form"
+    }
+  ],
+  [
+    "event",
+    "nav_click",
+    {
+      "link_text": "Home",
+      "from_page": "Contacts — GA4 Lab"
+    }
+  ]
+]
