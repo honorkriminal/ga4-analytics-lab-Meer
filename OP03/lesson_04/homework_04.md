@@ -11,7 +11,7 @@
 
 При переходе по /guide.html?utm_source=instagram&utm_medium=social&utm_campaign=backend_guide ожидаются instagram, social, backend_guide и /guide.html. Кнопка в гайде создаёт cta_click и передаёт метки на contacts.html. generate_lead отражает попытку отправки валидной формы. Ошибки по полям помогают определить, на каком вводе прерывается отправка. Для оценки популярности пунктов меню нужны реальные наблюдения.
 
-Файлы реализации — site/js/metrics.js, site/guide.js и site/js/script.js. DebugView, регистрация пользовательских параметров, отметка generate_lead как ключевого события и Realtime в личном ресурсе не подтверждены.
+На опубликованном сайте обработчики находятся в js/metrics.js, guide.js и js/script.js. Сборщик GA4 вернул HTTP 204 на тестовый generate_lead. Отдельно проверен read_30s с ответом HTTP 204. DebugView, регистрация пользовательских параметров, отметка generate_lead как ключевого события и Realtime в личном ресурсе не подтверждены.
 
 Подготовлено с помощью ИИ.
 
